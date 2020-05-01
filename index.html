@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mertonome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <input type="number" id="bpm" value="120" min="1" max="1500">
+        
+        <input type="checkbox" id="checkbox" onchange="pushed(this);">
+        <label for="checkbox" id="button">PLAY</label>
+
+        <output id="message">ロード中</output>
+    </main>
+    <footer>&copy; salieri256</footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

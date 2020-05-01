@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+}
+
+input#bpm {
+    position: relative;
+    top: 130px;
+    display: block;
+    width: 300px;
+    margin: 0 auto;/*中央にもってくる*/
+
+    border: none;/*枠線を消す*/
+    font-size: 100px;
+    font-weight: 1;
+    color: #00ad51;
+    text-align: center;/*数字を中央寄せ*/
+}
+
+
+label#button {
+    position: relative;
+    top: 200px;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px 70px;
+
+    /*標準スタイルリセット*/
+    border: none;/*枠線を消す*/
+    
+    background-color: #2fc273;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+input#checkbox {
+    display: none;
+}
+
+output#message {
+    position: relative;
+    top: 230px;
+    display: block;
+    min-height: 30px;
+
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    top: 300px;
+
+    text-align: center;
+}
